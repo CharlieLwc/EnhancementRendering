@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication2Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication2Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication2.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\far ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\far our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\far rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\mid ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\mid our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\mid rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\near ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\near our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\near rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\mid ori L.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\mid our L.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\mid rs L.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\far ori L.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\far our L.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\far rs L.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\far ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\far our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\far rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\mid ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\mid our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\mid rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\far ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\far our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\far rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\mid ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\mid our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\mid rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\near ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\near our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\line\near rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\map3\mid ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\map3\mid our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\map3\mid rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\map3\far ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\map3\far our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\map3\far rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\ball 顶点法向\far our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\ball 顶点法向\far rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\ball 顶点法向\far.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\ball 顶点法向\mid our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\ball 顶点法向\mid rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\ball 顶点法向\mid.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\near ori.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\near our.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\RS\海参\near rs.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

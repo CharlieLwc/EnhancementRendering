@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A5B6C7B-FC65-415E-B601-FAFD9D132E50}</ProjectGuid>
+    <RootNamespace>MFCApplication2</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication2.h" />
+    <ClInclude Include="MFCApplication2Dlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication2.cpp" />
+    <ClCompile Include="MFCApplication2Dlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\MFCApplication2.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\far ori.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\far our.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\far rs.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\mid ori.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\mid our.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\mid rs.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\near ori.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\near our.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (3)\near rs.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\far ori L.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\far our L.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\far rs L.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\mid ori L.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\mid our L.PNG" />
+    <Image Include="..\..\..\enhance\enhance\结果图片\RS\line\New folder (4)\mid rs L.PNG" />
+    <Image Include="..\..\RS\ball 顶点法向\far our.PNG" />
+    <Image Include="..\..\RS\ball 顶点法向\far rs.PNG" />
+    <Image Include="..\..\RS\ball 顶点法向\far.PNG" />
+    <Image Include="..\..\RS\ball 顶点法向\mid our.PNG" />
+    <Image Include="..\..\RS\ball 顶点法向\mid rs.PNG" />
+    <Image Include="..\..\RS\ball 顶点法向\mid.PNG" />
+    <Image Include="..\..\RS\line\far ori.PNG" />
+    <Image Include="..\..\RS\line\far our.PNG" />
+    <Image Include="..\..\RS\line\far rs.PNG" />
+    <Image Include="..\..\RS\line\mid ori.PNG" />
+    <Image Include="..\..\RS\line\mid our.PNG" />
+    <Image Include="..\..\RS\line\mid rs.PNG" />
+    <Image Include="..\..\RS\line\near ori.PNG" />
+    <Image Include="..\..\RS\line\near our.PNG" />
+    <Image Include="..\..\RS\line\near rs.PNG" />
+    <Image Include="..\..\RS\map3\far ori.PNG" />
+    <Image Include="..\..\RS\map3\far our.PNG" />
+    <Image Include="..\..\RS\map3\far rs.PNG" />
+    <Image Include="..\..\RS\map3\mid ori.PNG" />
+    <Image Include="..\..\RS\map3\mid our.PNG" />
+    <Image Include="..\..\RS\map3\mid rs.PNG" />
+    <Image Include="..\..\RS\海参\far ori.PNG" />
+    <Image Include="..\..\RS\海参\far our.PNG" />
+    <Image Include="..\..\RS\海参\far rs.PNG" />
+    <Image Include="..\..\RS\海参\mid ori.PNG" />
+    <Image Include="..\..\RS\海参\mid our.PNG" />
+    <Image Include="..\..\RS\海参\mid rs.PNG" />
+    <Image Include="..\..\RS\海参\near ori.PNG" />
+    <Image Include="..\..\RS\海参\near our.PNG" />
+    <Image Include="..\..\RS\海参\near rs.PNG" />
+    <Image Include="res\MFCApplication2.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MFCApplication2.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
