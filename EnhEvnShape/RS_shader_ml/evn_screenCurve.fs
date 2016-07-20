@@ -62,8 +62,6 @@ void main(void) {
           
     float curvature = curvature();
 	
-
-
     gl_FragData[0] = vec4(curvature*enhanceScale); 
 
 }

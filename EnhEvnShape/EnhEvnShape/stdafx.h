@@ -20,11 +20,11 @@
 
 #pragma comment(lib, "PrecomputedRadiaceTransfer.lib")
 #pragma comment(lib, "TriMesh2.lib")
-#pragma comment(lib, "color2gray.lib")
+//#pragma comment(lib, "color2gray.lib")
 #else
 #pragma comment(lib, "../Release/PrecomputedRadiaceTransfer.lib")
 #pragma comment(lib, "../Release/TriMesh2.lib")
-#pragma comment(lib, "../Release/color2gray.lib")
+//#pragma comment(lib, "../Release/color2gray.lib")
 #endif
 
 

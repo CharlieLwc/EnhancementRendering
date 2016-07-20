@@ -812,8 +812,9 @@ int _tmain(int argc, char* argv[])
 
 
 	char *direction = {"..\\Model\\"};
-	
-	char *fileName = { "chicNN" };
+
+	char *fileName = { "dragon" };
+//	char *fileName = { "chicNN" };
 //	char *fileName = { "cubeNN" };
 //	char *fileName = { "headMaxNN" };
 //	char *fileName = { "rocker-arm" };
